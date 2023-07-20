@@ -1,195 +1,189 @@
 body {
-    padding: 0px;margin: 0px
+  padding: 0px;
+  margin: 0px;
 }
 
-.titulo{
-    display: flex;
-    background-color: #eaf4e8 ;
-
+.titulo-container {
+  display: flex;
+  background-color: #eaf4e8;
 }
-#titulo {
-    display: flex;
-    width: 100%;
-    color:#97c4ad; 
-    font-size: 140px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: static;
-    
+.titulo {
+  display: flex;
+  width: 100%;
+  color: #97c4ad;
+  font-size: 140px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: static;
 }
 
-#logo{
-    display: flex;
-    padding-top: 90px;
-    padding-right: 80px;
-
+.logo-principal {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
 }
 
-#eslogan{
-    display: flex;
-    color: #97c4ad;
-    font-size:  50px;
-    height:23px;
-    position: absolute;
-    padding-top: 250px;
+.logo {
+  display: flex;
+  width: 25%;
+}
+
+.eslogan {
+  display: flex;
+  color: #97c4ad;
+  font-size: 50px;
+  height: 23px;
+  position: absolute;
+  padding-top: 250px;
 }
 p.texto {
-    color: #97c4ad;
-    font-style:italic ;
+  color: #97c4ad;
+  font-style: italic;
 }
 .informacion {
-    display: flex;
-    color: #e6fcd9;     
-    font-size: x-large;
-    font-weight: 200;
-    background-color:#8e978d; /*esto es el color del fondo de la caja de informacion cambiar a la brevedad*/
- 
+  display: flex;
+  color: #e6fcd9;
+  font-size: x-large;
+  font-weight: 200;
+  background-color: #8e978d; /*esto es el color del fondo de la caja de informacion cambiar a la brevedad*/
 }
 
-.informacion-direccion{
-        display:flex;
-        justify-content: center;
-        flex-wrap: wrap;
-
+.informacion-direccion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-    #titulo-direccion{
-        font-size: 25px;
-        color: #97c4ad;
-        font-weight: 200px;
-        font-style: oblique;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    #direccion{
-        font-size: 20px;
-        font-weight: 110px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif
-    }
-    #redes{
-        font-size: 25px;
-        color: #97c4ad;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-style: oblique
-    }
-    #Nit{
-        font-size: 20px;
-        font-weight: 110px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif 
-    }
-
-.caja-derecha{
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
-    position: relative;
-    flex-direction: row;
-
+#titulo-direccion {
+  font-size: 25px;
+  color: #97c4ad;
+  font-weight: 200px;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-        #tituloderecha{
-            color:#97c4ad ;
-            font-style: oblique; 
-            font-weight: 200px;
-            padding-bottom: 2px;
-            font-size: xx-large;
-            flex-direction: column;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin: 7px;
-        }
-
-        #textoderecha {
-            display: flex;
-            background-color: #cdf2d6;
-            padding: 10px;
-            border: 2px solid #e6fcd9;
-            flex-direction: column;
-            align-content: space-between;
-            font-family:Verdana, Geneva, Tahoma, sans-serif
-        }
-
-        #tituloderecha-1{
-            color:#97c4ad ;
-            font-style: oblique; 
-            font-weight: 200px;
-            font-size: xx-large;
-            flex-direction: column;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin: 7px;
-        }
-
-        #textoderecha-1 {
-            display: flex;
-            background-color: #cdf2d6;
-            padding: 10px;
-            border: 2px solid #e6fcd9;
-            flex-direction: column;
-            align-content: stretch;
-            font-family:Verdana, Geneva, Tahoma, sans-serif
-        }
-
-.caja-izquierda{
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-
-
+#direccion {
+  font-size: 20px;
+  font-weight: 110px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-    #tituloizquierda{
-        color:#97c4ad ;
-        font-style: oblique; 
-        font-weight: 200;
-        font-size: xx-large;
-        flex-direction: row-reverse;
-        justify-content: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        margin: 7px;
-    
-    }
+#redes {
+  font-size: 25px;
+  color: #97c4ad;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+#Nit {
+  font-size: 20px;
+  font-weight: 110px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    #textoizquierda{
-        display: flex;
-        background-color: #cdf2d6;
-        padding: 10px;
-        border: 2px solid #e6fcd9;
-        justify-content: left;
-        flex-direction: row-reverse;
-        align-content: stretch;
-        width: 25%;
-        font-family:Verdana, Geneva, Tahoma, sans-serif    
-    
-    }
+.caja {
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
 
-    #tituloizquierda-1{
-        color:#97c4ad ;
-        font-style: oblique; 
-        font-weight: 200;
-        font-size: xx-large;
-        flex-direction: row-reverse;
-        justify-content: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        margin: 7px;
-    
-    }
+.derecha {
+  justify-content: right;
+}
 
-    #textoizquierda-1{
-        display: flex;
-        background-color: #cdf2d6;
-        padding: 10px;
-        border: 2px solid #e6fcd9;
-        justify-content: left;
-        flex-direction: row-reverse;
-        align-content: stretch;
-        width: 25%;
-        font-family:Verdana, Geneva, Tahoma, sans-serif    
-    
-    }
+.izquierda {
+  justify-content: left;
+}
 
+#tituloderecha {
+  color: #97c4ad;
+  font-style: oblique;
+  font-weight: 200px;
+  padding-bottom: 2px;
+  font-size: xx-large;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 7px;
+}
 
+#textoderecha {
+  display: flex;
+  background-color: #cdf2d6;
+  padding: 10px;
+  border: 2px solid #e6fcd9;
+  flex-direction: column;
+  align-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+#tituloderecha-1 {
+  color: #97c4ad;
+  font-style: oblique;
+  font-weight: 200px;
+  font-size: xx-large;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 7px;
+}
 
+#textoderecha-1 {
+  display: flex;
+  background-color: #cdf2d6;
+  padding: 10px;
+  border: 2px solid #e6fcd9;
+  flex-direction: column;
+  align-content: stretch;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+#tituloizquierda {
+  color: #97c4ad;
+  font-style: oblique;
+  font-weight: 200;
+  font-size: xx-large;
+  flex-direction: row-reverse;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 7px;
+}
 
-*{
-    font-size: x-large;
-    font-weight: 400;
+#textoizquierda {
+  display: flex;
+  background-color: #cdf2d6;
+  padding: 10px;
+  border: 2px solid #e6fcd9;
+  justify-content: left;
+  flex-direction: row-reverse;
+  align-content: stretch;
+  width: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tituloizquierda-1 {
+  color: #97c4ad;
+  font-style: oblique;
+  font-weight: 200;
+  font-size: xx-large;
+  flex-direction: row-reverse;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 7px;
+}
+
+#textoizquierda-1 {
+  display: flex;
+  background-color: #cdf2d6;
+  padding: 10px;
+  border: 2px solid #e6fcd9;
+  justify-content: left;
+  flex-direction: row-reverse;
+  align-content: stretch;
+  width: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  font-size: x-large;
+  font-weight: 400;
 }
 
 /*
