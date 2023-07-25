@@ -2,8 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="archivo.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>GreenNote</title>
   </head>
 
@@ -15,7 +14,7 @@
     </header>
 
     <section>
-      <div class="caja derecha">
+      <div class="caja derecha" data-aos="fade-right" data-aos-duration="3000">
         <h2 class="titulo derecha arriba">Quienes somos?</h2>
         <p class="texto derecha">
           Somos una que busca dar con el lado sostenible de la papeleria
@@ -25,7 +24,7 @@
         <!--mirar porque no funciona el comando posirion--><!--imagenprovicional-->
       </div>
 
-      <div class="caja izquierda">
+      <div class="caja izquierda" data-aos="fade-left" data-aos-duration="3000">
         <h2 class="titulo izquierda">Mision</h2>
         <p class="texto izquierda">
           Ofrecer al publico libretas de alta calidad <br />
@@ -35,7 +34,11 @@
         <!--imagen temporal-->
       </div>
 
-      <div class="caja derecha arriba">
+      <div
+        class="caja derecha arriba"
+        data-aos="fade-right"
+        data-aos-duration="3000"
+      >
         <h2 class="titulo derecha">Vision</h2>
         <p class="texto derecha">
           Colaboracion y responsabilidad reconocemos <br />
@@ -44,7 +47,7 @@
         </p>
       </div>
 
-      <div class="caja izquierda">
+      <div class="caja izquierda" data-aos="fade-left" data-aos-duration="3000">
         <h2 class="titulo izquierda">
           Valores <br />
           empresariales
@@ -58,7 +61,11 @@
         <!--imagen temporal-->
       </div>
 
-      <div class="caja derecha arriba">
+      <div
+        class="caja derecha arriba"
+        data-aos="fade-right"
+        data-aos-duration="3000"
+      >
         <h2 class="titulo derecha">Politica de calidad</h2>
         <p class="texto derecha">
           Cumplir con todas las necesidades del cliente <br />
@@ -97,5 +104,10 @@
         <p class="direccion">Cra 39 #44-61</p>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
