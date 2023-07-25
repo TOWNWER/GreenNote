@@ -85,14 +85,17 @@ p.texto {
   display: flex;
   position: relative;
   flex-direction: row;
+  margin: 10%;
 }
 
 .derecha {
   justify-content: right;
+  margin-right: 12%;
 }
 
 .izquierda {
   justify-content: left;
+  margin-left: 12%;
 }
 
 .titulo {
